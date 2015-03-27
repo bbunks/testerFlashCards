@@ -7,8 +7,8 @@ import java.awt.event.*;
  * Created by Nuiofrd on 10/22/2014.
  */
 public class TextFieldActionListener implements ActionListener{
-    JTextField jText;
-    JLabel jLabel;
+    public JTextField jText;
+    public JLabel jLabel;
     public TextFieldActionListener(JTextField jt, JLabel jl){
         jText = jt;
         jLabel = jl;
